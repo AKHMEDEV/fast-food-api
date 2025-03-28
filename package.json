@@ -1,0 +1,30 @@
+{
+  "name": "new-folder",
+  "version": "1.0.0",
+  "description": "Biror bir fast-food restorani uchun menyularni ko'rish va ovqatlarga buyurtma berish imkoniyatini beruvchi loyihaning BackEnd API'ni ishlab chiqish",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/main.js",
+    "start:dev": "nodemon src/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AKHMEDEV/fast-food-api.git"
+  },
+  "keywords": [],
+  "author": "Axmadillo Hasanov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AKHMEDEV/fast-food-api/issues"
+  },
+  "homepage": "https://github.com/AKHMEDEV/fast-food-api#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.13.0"
+  }
+}
